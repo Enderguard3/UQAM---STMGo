@@ -1,23 +1,10 @@
-# Travail pratique 1 - Messagerie SmartMail
+# Travail pratique 2 - StmGO
 
 ## Description
 
-Ce projet est l'implémentation de "SmartMail", une messagerie éléctronique.
-un utilisateur a accès a 3 boîtes : 
-<ul>
-	<li>une boîte d'envoi</li>
-	<li>une boîte de récéption</li>
-	<li>une boîte de spams</li>
-</ul>
-
-Le système de spam est automatique : tout les messages envoyés sont filtré selon plusieurs critères
-dont leur Objet ou leur Contenue.
-
-Les utilisateurs ont aussi la possibilité d'enregistrer des contacts ou de bloquer certaines adresses.
-
-SmartMail permet également de visualiser quelques statistiques sur les spams qui circule et certains 
-outils de gestion tel que la suppression des ancien messages.
-
+stmGO est un calculateur de trajet permettand de trouver le trajet le plus court (ou non) 
+d'un point A à un point B (dans la limite de la base de donnée que l'on lui fourni).
+Il tiens compte des horraires, et des stations intermédiaires si nécéssaire.
 
 ## Auteur
 
@@ -25,27 +12,17 @@ César Ombredane (OMBC91090108)
 
 ## Fonctionnement
 
-Le projet n'utilise aucune dépendance externe, il suffit de compiler "SmartMail.hs"
-et toutes les fonctions serons accessibles.
+Pour faire fonctionner le projet, aucune dépendances n'est nécéssaire.
 
-
-## Contenu du projet
-
-Fichiers contenus dans le dépôt.
-
-<ul>
-	<li>CompteSmail.hs</li>
-	<li>Personne.hs</li>
-	<li>SmartMail.hs</li>
-	<li>Trame.hs</li>
-	<li>README.md</li>
-</ul>
-
+- Rendez-vous dans le dossier contenant **tp2.pl** et **lignes.pl** avec votre invite de commande.
+- entrez la commande : ``` swipl ``` pour entrer dans l'interpreteur prolog.
+- charger le fichier **tp2.pl** a l'aide de la commande ```prolog ['tp2.pl'] ```
+- executez ensuite la commande ```prolog stmGO. ``` pour lancer le programme.
 
 ## Dépendances
 
-Ce projet n'utilise aucune dépendances.
+Il n'y a pas de dépendances.
 
-## Statut
+## État du projet
 
-Le projet à été complété.
+Le projet est complété.
