@@ -16,8 +16,11 @@ Pour faire fonctionner le projet, aucune dépendances n'est nécéssaire.
 
 - Rendez-vous dans le dossier contenant **tp2.pl** et **lignes.pl** avec votre invite de commande.
 - entrez la commande : ``` swipl ``` pour entrer dans l'interpreteur prolog.
-- charger le fichier **tp2.pl** a l'aide de la commande ```prolog ['tp2.pl'] ```
-- executez ensuite la commande ```prolog stmGO. ``` pour lancer le programme.
+- charger le fichier **tp2.pl** a l'aide de la commande ``` ['tp2.pl'] ```
+- executez ensuite la commande ``` stmGO. ``` pour lancer le programme.
+- suivez ensuite les instructions comme dans l'exemple suivant.
+
+(Attention : les stations et lignes disponibles sont uniquement celle contenues dans la base de donnée)
 
 ## Dépendances
 
